@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "spatial-data-management-with-duckdb"
+version = "0.1.0"
+description = ""
+authors = ["guimarczewski <guimarczewski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+duckdb = "^0.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
